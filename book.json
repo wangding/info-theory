@@ -1,0 +1,76 @@
+{
+  "title": "信息科学基础",
+  "description" : "信息科学基础",
+  "author": "王顶",
+  "language": "zh-hans",
+  "plugins": [
+    "-lunr",
+    "-search",
+    "-highlight",
+    "-sharing",
+    "edit-link",
+    "forkmegithub-cn",
+    "search-plus",
+    "sharing-plus",
+    "anchor-navigation-ex",
+    "splitter",
+    "image-captions-extended",
+    "bsz",
+    "fancybox",
+    "katex",
+    "image-wrapper",
+    "gtalk"
+  ],
+  "pluginsConfig": {
+    "gtalk": {
+      "clientID": "52057f940b81e6a89b4d",
+      "clientSecret": "8b861e5f1886f2cb804e008e7f77e43cb5b9003f",
+      "repo": "info-theory",
+      "owner": "wangding",
+      "admin": ["wangding"],
+      "labels": ["InfoTheory"]
+    },
+    "anchor-navigation-ex": {
+      "multipleH1": false
+    },
+    "forkmegithub-cn": {
+      "url": "https://github.com/wangding/info-theory",
+      "color": "red"
+    },
+    "edit-link": {
+      "base": "https://github.com/wangding/info-theory",
+      "label": "编辑本页"
+    },
+    "sharing": {
+      "douban": true,
+      "facebook": false,
+      "google": false,
+      "hatenaBookmark": false,
+      "instapaper": false,
+      "line": false,
+      "linkedin": false,
+      "messenger": false,
+      "pocket": false,
+      "qq": true,
+      "qzone": true,
+      "stumbleupon": false,
+      "twitter": false,
+      "viber": false,
+      "vk": false,
+      "weibo": true,
+      "whatsapp": false,
+      "all": [
+        "weibo", "douban", "qzone", "qq"
+      ]
+    },
+    "image-captions": {
+      "caption": "图：_CAPTION_"
+    },
+    "bsz": {
+      "copyright": "2018&nbsp;-&nbsp;<span class=\"bsz-this-year\"></span>&nbsp;by&nbsp;<a href=\"http://i.wangding.co\">王顶</a>.&nbsp;All rights reserved."
+    }
+  },
+  "styles": {
+    "website": "styles/website.css"
+  }
+}
